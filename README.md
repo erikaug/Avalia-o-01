@@ -48,11 +48,11 @@ Dessa forma, uma categoria pode conter vários produtos, e cada produto está vi
 
 1. Abrir o Aplicativo e rodar o "Apache" e "MySQL"
 
-2. **Clicar em "Admin" na linha do "MySQL"
+2. Clicar em "Admin" na linha do "MySQL"
 
-3. **Criar o banco de dados com o nome de "erik" e rodar o codigo no vscode
+3. Criar o banco de dados com o nome de "erik" e rodar o codigo no vscode
 
-4. **Utilizar a Extensão do POSTMAN para criar as tabelas.
+4. Utilizar a Extensão do POSTMAN para criar as tabelas.
 
 ## Configuração do Projeto
 
