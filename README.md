@@ -1,4 +1,4 @@
-# Avalia-o-01
+# Avaliacao-01
 ATIVIDADE AVALIATIVA
 # Loja API
 
@@ -7,7 +7,7 @@ Este projeto é uma API RESTful para gerenciamento de categorias e produtos em u
 ## Estrutura do Projeto
 
 ```
-projeto-loja-completo/
+projeto-loja-erik/
 ├── pom.xml               # Gerenciamento de dependências e build
 ├── src/
 │   ├── main/
