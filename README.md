@@ -2,13 +2,13 @@
 ATIVIDADE AVALIATIVA
 # Loja API
 
-Este projeto é uma API RESTful para gerenciamento de categorias e produtos em uma loja, construída com Spring Boot, Spring Data JPA e MariaDB.
+Este meu projeto é uma API RESTful para gerenciamento de categorias e produtos em uma loja, construída com Spring Boot, Spring Data JPA e MariaDB.
 
 ## Estrutura do Projeto
 
 ```
 projeto-loja-erik/
-├── pom.xml               # Gerenciamento de dependências e build
+├── pom.xml              
 ├── src/
 │   ├── main/
 │   │   ├── java/com/example/loja/
@@ -18,8 +18,8 @@ projeto-loja-erik/
 │   │   │   └── LojaApplication.java  # Classe principal Spring Boot
 │   │   └── resources/
 │   │       └── application.properties  # Configuração do datasource
-│   └── test/                  # Testes (padrão Spring Boot)
-└── .vscode/                  # Configurações de IDE
+│   └── test/                
+└── .vscode/                 
 ```
 
 ## Relacionamento entre Entidades
