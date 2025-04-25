@@ -44,30 +44,15 @@ Dessa forma, uma categoria pode conter vários produtos, e cada produto está vi
 - Maven instalado
 - MariaDB instalado e em execução
 
-## Instalação e Configuração do MariaDB
+## Utilizando o XAMPP
 
-1. **Atualizar repositórios e instalar MariaDB** (exemplo em Ubuntu):
+1. Abrir o Aplicativo e rodar o "Apache" e "MySQL"
 
-   ```bash
-   sudo apt update
-   sudo apt install mariadb-server
-   ```
-   ([digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-20-04?utm_source=chatgpt.com), [digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-22-04?utm_source=chatgpt.com))
+2. **Clicar em "Admin" na linha do "MySQL"
 
-2. **Executar o script de segurança** para definir senha de root e remover usuários/ámbitos inseguros:
+3. **Criar o banco de dados com o nome de "erik" e rodar o codigo no vscode
 
-   ```bash
-   sudo mysql_secure_installation
-   ```
-   ([digitalocean.com](https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-ubuntu-20-04?utm_source=chatgpt.com))
-
-3. **Criar o banco de dados** utilizado pela aplicação (exemplo: `erik`):
-
-   ```sql
-   CREATE DATABASE erik;
-   GRANT ALL PRIVILEGES ON erik.* TO 'root'@'localhost';
-   FLUSH PRIVILEGES;
-   ```
+4. **Utilizar a Extensão do POSTMAN para criar as tabelas.
 
 ## Configuração do Projeto
 
