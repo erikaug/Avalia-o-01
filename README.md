@@ -76,7 +76,7 @@ No arquivo `src/main/resources/application.properties`, ajuste conforme necessá
 ```properties
 spring.datasource.url=jdbc:mariadb://localhost:3306/erik
 spring.datasource.username=root
-spring.datasource.password=<SUA_SENHA>
+spring.datasource.password= (sua senha)
 spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MariaDBDialect
